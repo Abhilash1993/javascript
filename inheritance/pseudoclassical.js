@@ -1,10 +1,10 @@
 "use strict";
 
-const extendObj = function (childObj, parentObj) {
+const extendObj = (childObj, parentObj) => {
   childObj.prototype = parentObj.prototype;
 };
 
-const Human = function () {};
+const Human = {};
 Human.prototype = {
   name: "",
   geneder: "",
