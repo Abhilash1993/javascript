@@ -31,3 +31,5 @@ let abhilash = male("Abhilash");
 
 abhilash.sayMyName();
 abhilash.sayMyGender();
+
+module.exports = { human, male, female };
