@@ -3,5 +3,6 @@ node_js:
   - 8.11.4
 script:
   - make tests
-provider: surge
+deploy:
+  provider: surge
   domain: nippy-cakes.surge.sh
