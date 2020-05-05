@@ -15,7 +15,7 @@ function loadScript(src) {
   return promise;
 }
 
-let scriptsLoadingPromise = loadScript("/iterators/index.js");
+let scriptsLoadingPromise = loadScript("/DOM/timer.js");
 
 scriptsLoadingPromise.then((data) => {
   // code of loading of the script goes here
