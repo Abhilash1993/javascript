@@ -5,5 +5,5 @@ for (let i = 0; i < 1000; i++) {
   setTimeout(() => {
     timerDiv.innerHTML = i;
     body.append(timerDiv);
-  }, 1000);
+  }, 1000 * i);
 }
